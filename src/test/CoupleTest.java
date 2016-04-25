@@ -10,7 +10,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by Do Minh Toan on 25/4/2016.
  */
 public class CoupleTest {
     List<Employee> employees = new ArrayList<>();
