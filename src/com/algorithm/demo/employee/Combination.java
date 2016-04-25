@@ -50,7 +50,6 @@ public class Combination {
 	 
 		result.clear();
 		for (ArrayList<Integer> one : prevResult) {
-	 
 			for (int i = 1; i <= n; i++) {
 				if (i > one.get(one.size() - 1)) {
 					ArrayList<Integer> temp = new ArrayList<Integer>();
@@ -66,7 +65,7 @@ public class Combination {
 	
 	public static void main(String[] args) {
 		Combination combination = new Combination();
-		ArrayList<ArrayList<Integer>> result = combination.combine(4, 2);
+		ArrayList<ArrayList<Integer>> result = combination.combine(4, 3);
 		for (ArrayList<Integer> res : result) {
 			for (Integer integer : res) {
 				System.out.print(integer.toString());
