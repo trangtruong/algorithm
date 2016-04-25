@@ -3,6 +3,11 @@ package com.algorithm.demo.sum3;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+/**
+ * http://www.programcreek.com/2012/12/leetcode-3sum/
+ * @author sgtt003
+ *
+ */
 public class Sum3 {
 	
 	public ArrayList<ArrayList<Integer>> threeSum(int[] num) {
